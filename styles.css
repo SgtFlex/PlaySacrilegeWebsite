@@ -51,8 +51,6 @@ button.active {
 
 .top-container {
     display: flex;
-    height:200px;
-    width:100%;
     justify-content: center;
     align-items: center;
     margin: auto;

@@ -94,7 +94,7 @@ button.active {
     display: flex;
     width:100%;
     margin: 0 auto;
-    background-color: darkgrey;
+    background-color: rgba(0, 0, 0, 0.8);
     bottom: 0px;
     text-align: center;
     /* animation: slideInFromLeft ease 1s, fadeInAnimation ease 1s; */
@@ -130,8 +130,6 @@ ul {
 .main-container {
     display: flex;
     width:100%;
-    background-image: url("media/background01.png");
-    background-color: grey;
     height:fit-content;
     background-attachment: fixed;
     background-position: center;
@@ -197,7 +195,7 @@ ul {
     margin-right: auto;
     /* margin-left:auto;
     margin-right:auto; */
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgba(0, 0, 0, .65);
     max-width:1500px;
     width:75%;
     min-height: 500px;
@@ -250,10 +248,15 @@ video {
 body {
     padding: 0px;
     margin: 0px;
-    background-color: rgb(78, 78, 78);
     height:100vh;
     display: flex;
     flex-direction: column;
+    background-image: url("media/vlc_ryK3rKgY7K.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 @keyframes fadeInAnimation {

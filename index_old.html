@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="icon" type="image/x-icon" href="media/favicon01.png">
+  <title>Aaron Ramos - Programmer & 3D Artist</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  
+  <!-- Tab links -->
+  <div class="top-container">
+    <div class="name"><img src="media/name01.png"></div>
+    <div class="banner">
+    </div>
+  </div>
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Home')" index="0" id="defaultOpen">Home</button>
+    <!-- <button class="tablinks" onclick="openTab(event, 'Blog')">Blog</button> -->
+    <button class="tablinks" onclick="openTab(event, 'Showcase')" index="1">Showcase</button>
+    <button class="tablinks" onclick="openTab(event, 'Contact')" index="2">Contact</button>
+    <button class="tablinks" onclick="openTab(event, 'Commissions')" index="3">Commissions</button>
+  </div>
+  
+  <div class="main-container">
+    <div id="Home" class= "tabcontent">
+      <p>
+        &emsp;My name is Aaron Ramos. I program in various languages such as C++, Python, Lua, and more. I believe video games is one of the best mediums to experience, and I love programming, so I chose to combine the two. I also love creating characters and learning about the character creation process (Modeling, Sculpting, Texturing, etc) and bringing them to life by programming their behaviors in various engines like Unreal Engine or Source engine. I have created a few Garry's Mod addons and made many personal projects in Unreal Engine. I also love horror, sci-fi, and Halo.
+        <br><br>
+        Skills:<br>
+        
+        Software + Programming
+        <ul>
+          <li>C++</li>
+          <li>C</li>
+          <li>Python</li>
+          <li>Java</li>
+          <li>Unreal Engine</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+        
+        3D Art
+        <ul>
+          <li>Software such as: Blender, Maya, 3DSMax, Substance Painter</li>
+          <li>Modeling</li>
+          <li>Texturing</li>
+          <li>UV Editing</li>
+          <li>Animating</li>
+        </ul>
+        Other tools, software, and knowledge
+        <ul>
+          <li>3D Model/Character to game engine pipeline</li>
+          <li>Adobe Illustrator/Inkscape</li>
+          <li>Photoshop/GIMP 2</li>
+          <li>Word, Excel, Powerpoint</li>
+        </ul>
+      </p>
+    </div>
+    
+    <div id = "Blog" class = "tabcontent">
+      <p>Blog Page</p>
+    </div>
+    
+    <div id = "Showcase" class = "tabcontent">
+      <div class="tabvert">
+        <button class="tablinksvert" onclick="openTabVert(event, 'Coding')" id="defaultOpenVert">Coding</button>
+        <!-- <button class="tablinksvert" onclick="openTabVert(event, 'Games')">Games</button> -->
+        <button class="tablinksvert" onclick="openTabVert(event, '3D')">3D Art</button>
+      </div>  
+      <div class="showcase-container">
+        <div id="Coding" class= "tabcontentvert">
+          <h1>Sacrilege</h1>
+          <p><a href="https://github.com/SgtFlex/HaloFloodFanGame01/releases">Download Sacrilege</a></p>
+          <h2>Premise</h2>
+          <p>"Sacrilege" is a multiplayer FPS/RTS hybrid co-op game set in the "Halo" universe. The plan is to support a wide variety of gamemodes. The current present gamemode features your team working together to fight the enemies that spawn in waves. As the game progresses, the waves get harder and more types of enemies show up in order to stop you. What sets this apart from your typical wave-based survival gamemode is the presence of a "Commander" mode that you can switch to at any time. In this "Commander" mode, you can use "Requisition power" (which you get from defeating enemies) to call down weapons, vehicles, objects, and, most importantly, AI that you can issues commands to, such as: commandeering vehicles, wielding weapons, or assisting you in general.
+          <h2>My contributions</h2>
+          I created almost the entire game from scratch using Unreal Engine 4/5, including all of the characters (which can be found in the 3D showcase). I created a lot of different systems such as health systems, physics systems, vehicle systems, character systems, and interactions between the various systems to allow for a sandbox-type feel to the game when these various systems trigger each other (such as grenades triggering other grenades, vehicles causing collision damage to explosive barrels, etc).
+          <h2>The AI</h2>
+          <img src="media/UnrealEditor_vx8tTGGoSg.png" style="width:100%">
+          
+          <video controls autoplay style="height:300px">
+            <source src="media/Replay 2024-12-03 02-42-46.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+
+          </video>
+          The AI of Sacrilege have expansive behiavior trees which allow them to react to the environment around them quickly. They have the ability to evade incoming grenades, commandeer nearby vehicles (which activates a vehicle-specific behavior tree), and most importantly, react to commands given to them by the commander (which includes the player). Every character class has their own AI to make them stand out against other AI. Since "Sacrilege" also includes vehicles, the AI will look to commandeer vehicles which activates a vehicle-specific AI controller and behavior tree.
+          <h2>The RTS component</h2>
+          Sacrilege is a hybrid FPS/RTS, which means you primarily play in a first-person perspective shooting down foes, but you also have the ability to switch to a commander mode on the fly which allows you to call down troops, place traps, and give commands.
+          </p>
+        
+
+          
+          <img src="https://i.imgur.com/YHSxiIQ.jpeg" style="width:100%">     
+          <img src="https://i.imgur.com/dKcCycK.jpeg" style="width:100%">    
+          <img src="https://i.imgur.com/AIq8tZx.jpeg" style="width:100%">    
+          <img src="https://i.imgur.com/lOnQ3cc.jpeg" style="width:100%">    
+          <h1>Garry's Mod Halo SPV3</h1>
+          <p>With a group of collaborators, we ported content from a mod called "SPV3" into "Garry's Mod", while also creating original assets for the mod. We created the shaders and programmed the characters to function similar to how they did in SPV3. </p>
+          <div class="videoWrapper">
+            <iframe aspect-ratio="16/9" src="https://www.youtube.com/embed/aovDLVq6NcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <p>A short video featuring a physics-driven flying code base I created as part of the mod for the dropship vehicles.
+          <div class="videoWrapper">
+            <iframe aspect-ratio="16/9" src="https://www.youtube.com/embed/i5hPer-GavU?si=Y2P8zlImhz3udLND" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <h1>Garry's Mod Halo Sentinels</h1>
+          <p>Over the course of some months, I worked to port over a faction of characters from "Halo" (using existing tools) and programmed their behaviors, which include flying, lasering, and death behaviors.</p>
+          
+          <div class="videoWrapper">
+            <iframe src="https://www.youtube.com/embed/SjrYvOTWrUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+        
+        <div id = "Games" class = "tabcontentvert">
+          <p>Games Page</p>
+        </div>
+        
+        <div id = "3D" class = "tabcontentvert">
+          <p>"Gravemind" character I modeled and rigged.
+          <img src="media/gravemind_15_1.png" style="width:100%">     
+          <p>"Infection form" character I modeled, rigged, animated, and textured for my game, "Sacrilege"</p>
+          <video autoplay loop muted controls>
+            <source src="media/InfectionForm_32_Idle_010015-0054.mkv" type="video/mp4" />
+          </video>
+          <div class="videoWrapper">
+          <iframe aspect-ratio="16/9" src="https://www.youtube.com/embed/EjtFmFOG9BE?si=1laVrTZuhMJB_gPd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <p>"Carrier" character I modeled, rigged, animated, and textured for my game, "Sacrilege"</p>
+          <video autoplay loop muted controls>
+            <source src="media/carrier_reel.mp4" type="video/mp4" />
+          </video>
+          <div class="videoWrapper">
+          <iframe aspect-ratio="16/9" src="https://www.youtube.com/embed/rp7DO8KJ8vM?si=Oenhx2FhYw2iOfuR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <p>(Still WIP.) Grunt model I modeled, rigged, and animated for my game, "Sacrilege" (Texturing unfinished, animations WIP)</p>
+          <video autoplay loop muted controls>
+            <source src="media/Grunt_Reel_010000-0310.mp4" type="video/mp4" />
+          </video> 
+         
+          <p>"Cylon" character which I did NOT model, but I did re-rig and animate for a modding project in Garry's Mod</p>
+          <video autoplay loop muted controls>
+            <source src="media/Cylon_Reel_01.mp4" type="video/mp4" />
+          </video>
+
+          
+          <!--/<img src="media/odst_render_01.png" style="width:100%">-->
+        </div>
+      </div>
+    </div>
+    
+    <div id = "Contact" class = "tabcontent">
+      <p><a href="mailto:aaronramos96@gmail.com">aaronramos96@gmail.com</a></p>
+      <p><a href="https://www.linkedin.com/in/aaron-ramos-8516a898/">Linked In</a></p>
+      
+      <!-- <div class="contactform">
+        <h1>FormSubmit Demo</h1>
+        <form target="_blank" action="ced3f77185b89df64cc73d4bece9b091" method="POST">
+          <div class="form-group">
+            <div class="form-row">
+              <div class="col">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+              </div>
+              <div class="col">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+        </form>
+      </div>
+    </div> -->
+    
+  </div>
+
+  <div id = "Commissions" class = "tabcontent">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6Lix_8BYTtaUk3Z6C_ocKrM-J0LD2wsJ8UKPoVexNAncNJg/viewform?embedded=true" width="640" height="2322" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <!-- <div class="contactform">
+      <h1>FormSubmit Demo</h1>
+      <form target="_blank" action="ced3f77185b89df64cc73d4bece9b091" method="POST">
+        <div class="form-group">
+          <div class="form-row">
+            <div class="col">
+              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+            </div>
+            <div class="col">
+              <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+      </form>
+    </div>
+  </div> -->
+  
+</div>
+  
+  <script>
+    function openTab(evt, tabName) {
+      var i, tabcontent, tablinks
+      
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.animation = "fadeOutAnimation 1s forwards, slideOutToRight 1s forwards";
+        tabcontent[i].style.zIndex = "0";
+        //tabcontent[i].style.display = "none";
+      }
+      
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      
+      document.getElementById(tabName).style.display = "inline-block";
+      document.getElementById(tabName).style.zIndex = "10";
+      document.getElementById(tabName).style.animation = "fadeInAnimation 1s forwards, slideInFromLeft 1s forwards";
+      evt.currentTarget.className += " active";
+    }
+    
+    function openTabVert(evt, tabName) {
+      var i, tabcontent, tablinks
+      
+      tabcontent = document.getElementsByClassName("tabcontentvert");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      
+      tablinks = document.getElementsByClassName("tablinksvert");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      
+      document.getElementById(tabName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    document.getElementById("defaultOpenVert").click();
+    document.getElementById("defaultOpen").click();
+  </script>
+  
+</body>
+</html>

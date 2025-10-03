@@ -57,8 +57,9 @@ button.active {
     align-items: center;
     margin: auto;
     text-align: center;
-    min-height: 200px;
     vertical-align: middle;
+    padding-top: 30px;
+    padding-bottom: 30px;
     /* background-color: red; */
     
 }

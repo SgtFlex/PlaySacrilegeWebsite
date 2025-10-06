@@ -8,8 +8,6 @@ html {
     /* padding: 20px; */
 }
 
-
-
 body {
     padding: 0px;
     margin: 0px;
@@ -22,7 +20,24 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(0, 38, 49);
+}
 
+.button-download {
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    background-image: url("media/ButtonElement.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: rgba(0, 255, 255, 0);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    width: 80%;
+
+    height: 100px;
+    margin:0px 2px;
+    
 }
 
 video {

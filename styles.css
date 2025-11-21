@@ -40,6 +40,22 @@ body {
     font-size: 30px;
 }
 
+.socials-container {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.socials-container a img{
+  width: 64px;
+  height:auto;
+  display: flexbox;
+}
+
 video {
     width:100%;
      box-shadow: 0px 0px 40px 20px rgba(0, 72, 83, 0.5);
@@ -234,6 +250,8 @@ button.active {
 * {
   box-sizing: border-box;
 }
+
+
 
 div.gallery {
   display: flex;
